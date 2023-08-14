@@ -1,43 +1,27 @@
-/*navebar css*/
-/* Navbar styling */
-#navbar {
-    height: 50px;
-    background-color: #9288F8;
-    display: flex;
-    align-items: center;
-    padding: 0 20px;
-    justify-content: space-between;
-}
-
-#logo{
-    height: auto;
-    width: 45px;
-    border-radius: 5px;
-}
-
-.logo img {
-    height: 100%;
-}
-
-.nav-links {
-    display: flex;
-    gap: 20px;
-    list-style: none;
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
-    font-weight: 900;
-    font-size: 900px;
-    font-stretch: ultra-condensed;
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    background-color: #f2f2f2;
 }
 
-.nav-links li {
-    color: #322653;
-    font-size: 14px; /* Adjust font size */
+header {
+    background-color: #8062D6;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
 
-.nav-links a {
+nav {
+    background-color: #9288F8;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
     text-decoration: none;
-    color: #322653;
+    padding: 10px 20px;
 }
 /*image css*/
  Slider container 
