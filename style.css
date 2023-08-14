@@ -1,3 +1,36 @@
+<<<<<<< HEAD
+=======
+/*navebar css*/
+#navbar {
+height: 50px;
+width: auto;
+display: flex;
+flex-wrap: wrap;
+color: #322653;
+background-color: rgb(218, 245, 62);
+}
+
+#nav-links{
+color: #322653;
+display: flex;
+flex-direction: row-reverse;
+flex-wrap: wrap;
+}
+
+/*event list css*/
+.eventbox{
+    width: 100cm;
+    height: 50cm;
+    border: 2px black;
+    border-radius: 10px;
+
+}
+
+
+
+/*footer css*/
+
+>>>>>>> 3d19f7e7cdf6dfa65fe6165e250b8c218a4a583f
 /* Reset default margin and padding */
 body, h1, h2, h3, p, ul, li {
     margin: 0;
