@@ -56,18 +56,25 @@
     width: 100%;
     height: auto;
 }
+/* Add custom CSS to adjust the carousel image styles */
+.carousel-item .imagem {
+    width: 100%;
+    height: auto;
+    max-height: 400px; /* Limit the maximum height of the images */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
 
-/* Rest of your existing CSS styles */
-/* ... */
 
-.imagem{
+
+
+/*.imagem{
     height: 10px;
-    width : 50px;
+    width : 5px;
     display: block;
     justify-content: center;
     display: flex;
 }
-
+*/
 
 
 /*footer css*/
