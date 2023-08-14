@@ -1,41 +1,51 @@
-<<<<<<< HEAD
-=======
 /*navebar css*/
+/* Navbar styling */
 #navbar {
-height: 50px;
-width: auto;
-display: flex;
-flex-wrap: wrap;
-color: #322653;
-background-color: rgb(218, 245, 62);
+    height: 50px;
+    background-color: rgb(218, 245, 62);
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    justify-content: space-between;
 }
 
-#nav-links{
-color: #322653;
-display: flex;
-flex-direction: row-reverse;
-flex-wrap: wrap;
+#logo{
+    height: auto;
+    width: 45px;
+    border-radius: 5px;
 }
 
-/*event list css*/
-.eventbox{
-    width: 100cm;
-    height: 50cm;
-    border: 2px black;
-    border-radius: 10px;
-
+.logo img {
+    height: 100%;
 }
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+}
+
+.nav-links li {
+    color: #322653;
+    font-size: 14px; /* Adjust font size */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #322653;
+}
+
 
 
 
 /*footer css*/
 
->>>>>>> 3d19f7e7cdf6dfa65fe6165e250b8c218a4a583f
 /* Reset default margin and padding */
 body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
-
+}
 /*navebar css*/
 
 /*event list css*/
@@ -43,23 +53,26 @@ body, h1, h2, h3, p, ul, li {
     height: 500px;
     width: device-width;
     background-color: aqua;
-}
 
 
-  .eventbox {
-        background-color: rgba(0,0,0,.5);
-        width: 500px;
-        height: 300px;
-        border: 10px solid black; /* Add "solid" for border */
+
+  
+    .eventbox {
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 300px;
+        height: 150px;
+        border: 10px solid black;
         border-radius: 25px;
-        display: inline-block; /* Use inline-block for proper inline placement */
-        color: white; /* Add text color */
-        text-align: center; /* Center align the text */
-        padding: 10px; /* Add padding for spacing */
-        box-sizing: border-box; /* Include padding in total width/height */
-        margin: 10px; /* Add margin for spacing */
-        
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        box-sizing: border-box;
+        margin: 10px;
     }
+    
+    
+
 
 
 
