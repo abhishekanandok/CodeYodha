@@ -120,12 +120,20 @@ body, h1, h2, h3, p, ul, li {
         border-radius: 25px;
         display: inline-block;
         color: rgb(12, 0, 0);
-        text-align: center;
+        text-align:center;
         text-shadow: 10px;
         font-weight: 900;
         padding: 10px;
         box-sizing: border-box;
         margin: 10px;
+    }
+    #text{
+        height: 30px;
+        width: 160px;
+        background-color: #9288F8;
+        box-shadow: 0 8px 15px rgb(14, 0, 0);
+        border: 2px black;
+        border-radius: 10px;
     }
 
     .eventbox:hover{
