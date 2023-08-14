@@ -125,7 +125,6 @@ body, h1, h2, h3, p, ul, li {
   #photography{
     background-image: url("./Pic/photography.png");
     background-size: cover;
-    filter: blur(2px);
   }  
   #Sudoku{
     background-image: url("./Pic/sudo.png");
