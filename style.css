@@ -1,4 +1,19 @@
 /*navebar css*/
+#navbar {
+height: 50px;
+width: auto;
+display: flex;
+flex-wrap: wrap;
+color: #322653;
+background-color: rgb(218, 245, 62);
+}
+
+#nav-links{
+color: #322653;
+display: flex;
+flex-direction: row-reverse;
+flex-wrap: wrap;
+}
 
 /*event list css*/
 .eventbox{
