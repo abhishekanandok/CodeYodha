@@ -87,11 +87,18 @@ body, h1, h2, h3, p, ul, li {
 /*navebar css*/
 
 /*event list css*/
-/*#eventlist{
-    height: 500px;
-    width: device-width;
-    background-color: aqua;
-    /* ... Other CSS styles ... */
+#eventdes{
+    height: 200px;
+    width: auto;
+    background-color: #FFD2D7;
+    border: 5px black;
+    border-radius: 10px;
+    box-shadow: #000000;
+    padding: 20px;
+}
+#eventdes h1{
+    text-align: center;
+}
 
 /*event list css*/
 #eventlist {
@@ -125,7 +132,6 @@ body, h1, h2, h3, p, ul, li {
   #photography{
     background-image: url("./Pic/photography.png");
     background-size: cover;
-    filter: blur(2px);
   }  
   #Sudoku{
     background-image: url("./Pic/sudo.png");
