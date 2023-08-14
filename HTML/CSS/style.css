@@ -95,10 +95,14 @@ body, h1, h2, h3, p, ul, li {
     border-radius: 10px;
     box-shadow: #000000;
     padding: 20px;
+    margin: 3px;
+    background-image: url("/HTML/CSS/Pic/tringa.jpg");
+    background-size: cover;
 }
 #eventdes h1{
     text-align: center;
 }
+
 
 /*event list css*/
 #eventlist {
