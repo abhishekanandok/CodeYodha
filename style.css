@@ -1,3 +1,35 @@
+/*navebar css*/
+  
+  #navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white; /* Background color */
+    color: #322653; /* Text color */
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #322653; /* Text color */
+    font-weight: bold;
+  }
+  
+
+
+
 /*footer css*/
 
 
