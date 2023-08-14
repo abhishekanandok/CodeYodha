@@ -123,40 +123,40 @@ body, h1, h2, h3, p, ul, li {
     }
     
   #photography{
-    background-image: url("/HTML/CSS/Pic/event\ image\ 1.png");
+    background-image: url("/Pic/photography.png");
     background-size: cover;
     filter: blur(2px);
   }  
   #Sudoku{
-    background-image: url("/HTML/CSS/Pic/sudo.png");
+    background-image: url("/Pic/sudo.png");
     background-size: cover;
   }
   #Standup{
-    background-image: url("./Pic/standup.png");
+    background-image: url("/Pic/standup.png");
     background-size: cover;
   }
   #Debating{
-    background-image: url("./Pic/sudo.png");
+    background-image: url("/Pic/sudo.png");
     background-size: cover;
   }
   #QuizCompetition{
-    background-image: url("./Pic/quizz.png");
+    background-image: url("/Pic/quizz.png");
     background-size: cover;
   }
   #Chess{
-    background-image: url("./Pic/chess.png");
+    background-image: url("/Pic/chess.png");
     background-size: cover;
   }
   #CodingCompetition{
-    background-image: url("./Pic/hacke.png");
+    background-image: url("/Pic/hacke.png");
     background-size: cover;
   }
   #Singing{
-    background-image: url("./Pic/singing.png");
+    background-image: url("/Pic/singing.png");
     background-size: cover;
   }
   #Dancing{
-    background-image: url("./Pic/dance.png");
+    background-image: url("/Pic/dance.png");
     background-size: cover;
   }
 /*}
