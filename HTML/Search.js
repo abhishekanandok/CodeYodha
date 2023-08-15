@@ -44,10 +44,12 @@ searchInput.addEventListener("input", () => {
         matchingEvents.forEach(event => {
             const listItem = document.createElement("li");
             listItem.textContent = event.name;
+            listItem.addEventListener("click", () => {
+                window.location.href = event.url;
+            });
             suggestionsList.appendChild(listItem);
         });
     } else {
         suggestionsList.innerHTML = ""; // Clear the suggestions list if input is empty
     }
 });
-
