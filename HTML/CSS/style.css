@@ -12,7 +12,18 @@ header {
     text-align: center;
     background-image: url("https://wallpapers.com/images/featured/indian-flag-yqfmermanpgsw0jm.jpg");
 }
-
+/* Style for suggestion list items */
+#suggestions-list li {
+    cursor: pointer;
+    padding: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  /* Style for suggestion list items on hover */
+  #suggestions-list li:hover {
+    background-color: black;
+  }
+  
 nav {
     background-color: #9288F8;
     padding: 10px;
