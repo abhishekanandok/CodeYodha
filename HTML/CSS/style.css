@@ -21,8 +21,79 @@ header {
   
   /* Style for suggestion list items on hover */
   #suggestions-list li:hover {
-    background-color: black;
+    background-color: #0e63b8;
   }
+  /* Add this to your CSS stylesheet */
+/* Add this to your CSS stylesheet */
+/* Update this in your CSS stylesheet */
+#search-bar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: fit-content; /* Set the width to fit content */
+  }
+  
+  #search-input-container {
+    position: relative;
+  }
+  
+  #search-input {
+    padding: 10px;
+    border: 2px solid #cad5e0;
+    border-radius: 20px;
+    font-size: 16px;
+    width: 200px; /* Set a specific width */
+  }
+  /* Update this in your CSS stylesheet */
+#search-input {
+    padding: 15px;
+    border: 2px solid #007bff;
+    border-radius: 20px;
+    font-size: 16px;
+    width: 300px; /* Set a specific width */
+    height: 50px; /* Set the height */
+  }
+  
+  
+  #suggestions-list {
+    position: absolute;
+    top: 100%; /* Adjust this to position the suggestion list correctly */
+    left: 0;
+    width: 100%;
+    background-color: 	#C0C0C0;
+    border: 1px solid 	#808080;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(104, 11, 11, 0.1);
+    padding: 10px;
+    z-index: 1;
+    display: none;
+  }
+  
+  #search-input-container:hover #suggestions-list {
+    display: block;
+  }
+  
+  #search-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  #search-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /*#search-bar:hover #suggestions-list {
+    display: flex;
+  }
+  */
+  
   
 nav {
     background-color: #9288F8;
