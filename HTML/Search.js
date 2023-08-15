@@ -13,7 +13,7 @@ const events = [
 // Get references to the search elements
 const searchInput = document.getElementById("search-input");
 const searchButton = document.getElementById("search-button");
-const suggestionsList = document.getElementById("suggestions-list"); // Add this line
+const suggestionsList = document.getElementById("suggestions-list");
 
 // Add event listener for the search button
 searchButton.addEventListener("click", () => {
@@ -46,5 +46,8 @@ searchInput.addEventListener("input", () => {
             listItem.textContent = event.name;
             suggestionsList.appendChild(listItem);
         });
+    } else {
+        suggestionsList.innerHTML = ""; // Clear the suggestions list if input is empty
     }
 });
+
