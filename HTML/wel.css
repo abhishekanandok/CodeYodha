@@ -1,0 +1,48 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.admin-header {
+    background-color: #322653;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Container */
+.admin-container {
+    display: flex;
+}
+
+/* Sidebar */
+.admin-sidebar {
+    background-color: #322653;
+    color: white;
+    width: 250px;
+    padding: 20px;
+}
+
+.admin-sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.admin-sidebar li {
+    margin-bottom: 10px;
+}
+
+.admin-sidebar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main content */
+.admin-main {
+    flex: 1;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
