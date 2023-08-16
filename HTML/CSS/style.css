@@ -319,3 +319,91 @@ body, h1, h2, h3, p, ul, li {
     margin-top: 10px;
     font-size: 14px;
 }
+/* Add media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    /* Adjust the header font size for smaller screens */
+    header h1 {
+      font-size: 24px;
+    }
+    
+    /* Adjust the event boxes for smaller screens */
+    .eventbox {
+      width: 100%;
+      margin: 10px 0;
+    }
+    
+    /* Adjust the footer layout for smaller screens */
+    .footer-content {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .footer-links {
+      margin-top: 10px;
+    }
+    
+    .footer-social {
+      margin-top: 10px;
+    }
+  }
+  /* Add media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    /* Adjust the header font size for smaller screens */
+    header h1 {
+      font-size: 24px;
+    }
+    
+    /* Adjust the event boxes for smaller screens */
+    .eventbox {
+      width: 100%;
+      margin: 10px 0;
+    }
+    
+    /* Adjust the footer layout for smaller screens */
+    .footer-content {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .footer-links {
+      margin-top: 10px;
+    }
+    
+    .footer-social {
+      margin-top: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    /* Adjust the header font size for smaller smartphones */
+    header h1 {
+      font-size: 20px;
+    }
+    
+    /* Adjust the search input for smaller smartphones */
+    #search-input {
+      width: 100%; /* Full width for smaller screens */
+    }
+    
+    /* Adjust the suggestions list for smaller smartphones */
+    #suggestions-list {
+      width: 100%; /* Full width for smaller screens */
+    }
+    
+    /* Adjust the event boxes for smaller smartphones */
+    .eventbox {
+      width: 100%;
+      margin: 10px 0;
+    }
+    
+    /* Adjust the footer layout for smaller smartphones */
+    .footer-links {
+      text-align: center;
+    }
+    
+    .footer-social {
+      align-items: center;
+    }
+  }
+  
+  
