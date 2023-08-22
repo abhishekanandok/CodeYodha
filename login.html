@@ -1,45 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./CSS/login.css">
-  <title>Registration Form</title>
-  <link rel="icon" type="image/x-icon" href="CSS/Pic/logo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/login.css">
+    <title>Login</title>
 </head>
-<body style="background-color: chartreuse;">
-  <div class="container" style="background-color: aqua;">
-    <h2>Registration Form</h2>
-    <form action="action.html">
-      <div class="input-group">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" required placeholder="enter name">
-        <br>
-      </div>
-      <div class="input-group">
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required placeholder="enter email">
-        <br>
-      </div>
-      <div class="input-group">
-        <label for="password">Password</label>
-        <input type="password" id="password" name="password" placeholder="enter password" required>
-        <br>
-      </div>
-      <div class="input-group">
-        <label for="confirm-password">Confirm Password</label>
-        <input type="password" id="confirm-password" name="confirm-password" required placeholder="re enter password">
-        <br>
-        <br>
-      </div>
-      <button type="submit">Register</button>
-       <br>
-       <br>
-    </form>
-    <a href="logregister.html"> <button>Login</button></a>
-    <br>
-    <br>
-    <a href="forgot.html">forget password?</a>
-  </div>
+<body>
+    <div class="container">
+        <div class="form-container sign-in-container">
+            <form action="admin/index.html">
+                <h1>Welcome Back!</h1>
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <button>Sign In</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Hello, Friend!</h1>
+                    <p>Enter your personal details and start your journey with us.</p>
+                    <button class="ghost" id="signUp">Sign Up</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Welcome Back!</h1>
+                    <p>To keep connected with us, please login with your personal info.</p>
+                    <button class="ghost" id="signIn">Sign In</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="JS/login.js"></script>
 </body>
 </html>

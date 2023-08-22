@@ -1,7 +1,10 @@
+/* styles.css for Student Registration Page */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f2f2f2;
 }
 
 header {
@@ -17,65 +20,61 @@ main {
     padding: 0 1rem;
 }
 
-.event-form {
+.registration-form {
+    background-color: #fff;
     border: 1px solid #ddd;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    border-radius: 15px;
-    box-shadow: 0px 8px 15px black;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 }
 
-.event-form:hover {
-    box-shadow: -8px 8px 16px rgb(253, 0, 0);
-    transform: scale(1.02);
-    transition-duration: 0.7s;
+.registration-form h2 {
+    color: #322653;
+    margin-bottom: 1.5rem;
 }
 
-.student-registration {
-    border: 1px solid #ddd;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    margin-top: 40px;
-    border-radius: 15px;
-    box-shadow: 0px 8px 15px black;
-}
-
-#button {
-    height: 40px;
-    width: 180px;
-    color: aliceblue;
-    border: 4px black;
-    text-decoration: none;
-    background-color: #868a8b89;
-    display: flex;
-    justify-content: center;
-    padding-top: 15px;
-    border-radius: 15px;
-}
-
-.event-list {
-    border: 1px solid #ddd;
-    padding: 1rem;
-    margin-top: 40px;
-    border-radius: 15px;
-    box-shadow: 0px 8px 15px black;
-}
-
-.event-list:hover {
-    box-shadow: -8px 8px 16px rgb(253, 0, 0);
-    transform: scale(1.02);
-    transition-duration: 0.7s;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-li {
+.registration-form label {
+    display: block;
     margin-bottom: 0.5rem;
+    color: #333;
+    font-weight: bold;
 }
 
+.registration-form input[type="text"],
+.registration-form input[type="number"],
+.registration-form select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.registration-form select {
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url("arrow-down.png");
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 1.5rem;
+}
+
+.registration-form button {
+    background-color: #322653;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.registration-form button:hover {
+    background-color: #522b8e;
+}
+
+/* Add media queries for responsive design if needed */
 
 
 /* footer */

@@ -3,128 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stand Up</title>
-    <link rel="icon" type="image/x-icon" href="CSS/Pic/logo.png">
-    <style>
-        body {
-            background-color: #FFD2D7;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-
-        .container {
-            padding: 20px;
-        }
-
-        h1 {
-            background-color: #96B6C5;
-            color: white;
-            padding: 10px;
-            font-size: 36px;
-            margin-top: 0;
-            text-align: center;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-        }
-
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-bottom: 20px;
-        }
-
-        td {
-            vertical-align: top;
-            padding: 10px;
-        }
-
-        h3 {
-            color: #2C3E50;
-            font-size: 24px;
-            margin-top: 0;
-            margin-bottom: 10px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-
-        ul {
-            list-style-type: none;
-            padding-left: 0;
-            margin: 0;
-        }
-
-        li {
-            margin-bottom: 10px;
-            font-size: 16px;
-        }
-
-        strong {
-            color: #3498DB;
-        }
-    </style>
+    <link rel="stylesheet" href="CSS/singing.css">
+    <title>Stand-Up Comedy Night</title>
 </head>
-<body style="background-color:#FFD2D7">
-    <h1 style="color: rgb(15, 3, 3);">STAND-UP COMEDY</h1>
-    <h3>🎤😂 Laughs of Liberty: Virtual Stand-Up Comedy Showcase - Celebrating Independence Day </h3>
-    <table>
-        <tr>
-            <td><img src="data:image/jpeg;base64,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" alt="Standup" width="200px" height="200px"></td>
-            <td> Do you have a knack for making people laugh and wish to infuse humor into India's Independence Day celebration? <p>Join us for a hilarious virtual Stand-Up Comedy Showcase, where your jokes can add a touch of mirth to our nation's journey towards freedom.
-            </p>
-            </td>
-        </tr>
-    </table>
+<body>
+    <header>
+        <h1>Stand-Up Comedy Night</h1>
+        <p>Get Ready to Laugh Out Loud!</p>
+    </header>
+    <main>
+        <section class="details">
+            <h2>Event Details</h2>
+            <p>Date: September 20, 2023</p>
+            <p>Time: 7:00 PM - 10:00 PM</p>
+            <p>Location: Comedy Club Theater</p>
+            <p>Theme: "Laugh Riot"</p>
+        </section>
+        <section class="prizes">
+            <h2>Prizes</h2>
+            <ul>
+                <li>Best Comedian: $500</li>
+                <li>Audience Favorite: Gift Hamper</li>
+            </ul>
+        </section>
+        <section class="rules">
+            <h2>Event Rules</h2>
+            <ul>
+                <li>All participants must be 21 years or older.</li>
+                <li>Each comedian gets 5 minutes on stage.</li>
+                <li>No offensive or derogatory content.</li>
+                <!-- Add more rules here -->
+            </ul>
+        </section>
+        <section class="actions">
+            <h3>Share Now:-</h3>
+            <div class="share-buttons">
+                <a href="#" class="facebook" id="facebook-share">
+                    <img src="./CSS/Pic/slogo/Facebook_Logo_(2019).png" alt="Facebook">
+                </a>
+                <a href="#" class="twitter" id="twitter-share">
+                    <img src="./CSS/Pic/slogo/twitter-3-logo-png-transparent.png" alt="Twitter">
+                </a>
+                <a href="#" class="linkedin" id="linkedin-share">
+                    <img src="./CSS/Pic/slogo/58e91afdeb97430e81906504.png" alt="LinkedIn">
+                </a>
+            </div>
+        </section>
+        <a href="registration.html" class="register-button">Register Now</a>
+    </main>
+    <footer>
+        <p>&copy; 2023 Singing Competition. All rights reserved.</p>
+    </footer>
 
-<h3>Contest Details:</h3>
-<ul>
-    <li>📅 Date: August 14th, 2023 </li>
-    <li>🕒 Time: 8:00 PM - 10:00 PM (IST)</li>
-    <li>📍 Location: Virtual Event</li>
-</ul>
-<h3>What's in Store for You:</h3>
-<p>🤣 Comic Chronicles: Craft uproarious comedic routines that narrate amusing anecdotes, satirical takes, and humorous observations, celebrating the essence of India's struggle for independence.
-</p>
-
-<p>
-    🎭 Unity in Laughter: Spread joy through your humor, highlighting the diverse facets of India's culture and society that contribute to our unity in diversity.
-    </p>
-
-    <p>😄 Interpretive Comedy: Themes like "Modern Life's Quirks," "Progressive Optimism," and "Nostalgic Laughter" can be woven into your jokes, delivering entertaining narratives.
-    </p>
-
-    <p>🎙 Spotlight on Stage: Step into the virtual spotlight and deliver your stand-up act, showcasing your comedic timing and relatable punchlines.
-    </p>
-
-
-<h3>🏆 Hilarious Prizes Await:</h3>
-<ul>
-    <li>🥇 1st Place: ₹10,000 + Exclusive Comedy Workshop Access</li>
-    <li>🥈 2nd Place: ₹7,000 + Comedy Mentorship Opportunities</li>
-    <li>🥉 3rd Place: ₹3,000 + Recognition on Comedy Platforms</li>
-</ul>
-
-<h3>🏅 Recognizing Humorous Excellence:</h3>
-Apart from the top winners, standout comedians will be recognized across categories like "Best Satirical Humor," "Most Engaging Performance," and more.
-
-<h3>🎭 Participation Perks</h3>
-All participants will receive a participation certificate, celebrating your contribution to this prestigious event filled with laughter.
-
-<h3>📝 How to Participate:</h3>
-<p>Secure your spot by registering through our website <a href="https://docs.google.com/forms/d/e/1FAIpQLSduPvlZ7Ke2WwzOXEXOLGoZ9-zkJnnBVvQ7tZFpRS-GWYJ6fQ/viewform?embedded=true"  width="1580" height="1499" frameborder="0" marginheight="0" marginwidth="0"">[EventRegistrationLink]</a>. Act swiftly, as limited slots are available to showcase your comedic flair!
-</p>
-
-<p>Share your way into the heart of India's Independence Day celebration, where every joke spreads smiles and honors our nation's journey through laughter. Let's unite through the magic of humor.
-</p>
-
-<p>For more information, updates, and answers to your questions, visit our official website or contact us at <a href="utsavmania17@gmail.com">[ContactEmail]</a>. Get ready to perform, entertain, and celebrate the humorous spirit of freedom!
-</p>
-
-<p><strong>
-    Note: This event welcomes stand-up comedians of all levels, backgrounds, and age groups. Let's celebrate our nation's journey through laughter and joy.</strong></p>
+    <script src="JS/share.js"></script>
 </body>
 </html>

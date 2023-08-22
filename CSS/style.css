@@ -1,409 +1,608 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
 }
 
 header {
-    background-color: #8062D6;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    background-image: url("https://wallpapers.com/images/featured/indian-flag-yqfmermanpgsw0jm.jpg");
+  background-color: #8062D6;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  background-image: url("https://wallpapers.com/images/featured/indian-flag-yqfmermanpgsw0jm.jpg");
 }
+
+.header1 {
+  border-radius: 20px;
+  margin: 5px 20px 5px 20px;
+  box-shadow: 0px 0px 10px black;
+}
+
 /* Style for suggestion list items */
 #suggestions-list li {
-    cursor: pointer;
-    padding: 5px;
-    transition: background-color 0.3s;
-  }
-  
-  /* Style for suggestion list items on hover */
-  #suggestions-list li:hover {
-    background-color: #0e63b8;
-  }
-  /* Add this to your CSS stylesheet */
-/* Add this to your CSS stylesheet */
-/* Update this in your CSS stylesheet */
+  cursor: pointer;
+  padding: 5px;
+  transition: background-color 0.3s;
+}
+
+#suggestions-list li:hover {
+  background-color: #0e63b8;
+}
+
 #search-bar {
-    position: relative;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    width: fit-content; /* Set the width to fit content */
-  }
-  
-  #search-input-container {
-    position: relative;
-  }
-  
-  #search-input {
-    padding: 10px;
-    border: 2px solid #cad5e0;
-    border-radius: 20px;
-    font-size: 16px;
-    width: 200px; /* Set a specific width */
-  }
-  /* Update this in your CSS stylesheet */
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: fit-content;
+  height: 30px;
+}
+
+#search-input-container {
+  position: relative;
+}
+
 #search-input {
-    padding: 15px;
-    border: 2px solid #007bff;
-    border-radius: 20px;
-    font-size: 16px;
-    width: 300px; /* Set a specific width */
-    height: 50px; /* Set the height */
-  }
-  
-  
-  #suggestions-list {
-    position: absolute;
-    top: 100%; /* Adjust this to position the suggestion list correctly */
-    left: 0;
-    width: 100%;
-    background-color: 	#C0C0C0;
-    border: 1px solid 	#808080;
-    border-radius: 5px;
-    box-shadow: 0px 4px 8px rgba(104, 11, 11, 0.1);
-    padding: 10px;
-    z-index: 1;
-    display: none;
-  }
-  
-  #search-input-container:hover #suggestions-list {
-    display: block;
-  }
-  
-  #search-button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    border: none;
-    border-radius: 20px;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-  }
-  
-  #search-button:hover {
-    background-color: #0056b3;
-  }
-  
-  /*#search-bar:hover #suggestions-list {
-    display: flex;
-  }
-  */
-  
-  
+  padding: 5px;
+  padding-left: 15px;
+  border: 2px solid #cad5e0;
+  border-radius: 20px;
+  font-size: 16px;
+  width: 200px;
+  /* Set a specific width */
+}
+
+/* Update this in your CSS stylesheet */
+#search-input {
+  padding: 5px;
+  border: 2px solid #007bff;
+  border-radius: 20px;
+  font-size: 16px;
+  width: 300px;
+  height: 40px;
+}
+
+
+#suggestions-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #C0C0C0;
+  border: 1px solid #808080;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px rgba(104, 11, 11, 0.1);
+  padding: 10px;
+  z-index: 1;
+  display: none;
+}
+
+#search-input-container:hover #suggestions-list {
+  display: block;
+}
+
+#search-button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#search-button:hover {
+  background-color: #0056b3;
+  scale: 1.1;
+}
+
+
+
+/* navebar */
+.nav1 {
+  border-radius: 10px;
+  margin: 5px 20px 5px 20px;
+  box-shadow: 0px 0px 10px black;
+  display: flex;
+  justify-content: space-evenly;
+}
+
 nav {
-    background-color: #9288F8;
-    padding: 10px;
-    text-align: center;
+  background-color: #9288F8;
+  padding: 10px;
+  text-align: center;
 }
 
-nav a {
-    color: white;
-    text-decoration: none;
-    padding: 10px 20px;
+#nav2 a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
 }
+
+#nav2 a:hover {
+  transform: scale(2);
+  color: red;
+  transition-duration: 0.2s;
+}
+
 /*image css*/
- Slider container 
-.slider {
-    width: 100%;
-    max-width: 800px; /* Adjust to your preferred width */
-    margin: auto;
-    overflow: hidden;
- }
-
-/* Individual slides */
-
-
-/* Images inside the slides */
-.slide img {
-    width: 100%;
-    height: auto;
+#carouselExampleCaptions {
+  border-radius: 30px;
+  margin: 5px 20px 5px 20px;
+  box-shadow: 0px 0px 10px black;
 }
+
+Slider container .slider {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+}
+
 /* Add custom CSS to adjust the carousel image styles */
 .carousel-item .imagem {
-    width: 100%;
-    height: auto;
-    max-height: 400px; /* Limit the maximum height of the images */
-    object-fit: cover; /* Maintain aspect ratio and cover the container */
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
 }
 
-
-
-
-/*.imagem{
-    height: 10px;
-    width : 5px;
-    display: block;
-    justify-content: center;
-    display: flex;
-}
-*/
-
-
-/*footer css*/
-
-/* Reset default margin and padding */
-body, h1, h2, h3, p, ul, li {
-    margin: 0;
-    padding: 0;
-}
-/*navebar css*/
 
 /*event list css*/
-#eventdes{
-    height: 200px;
-    width: auto;
-    background-color: #FFD2D7;
-    border: 5px black;
-    border-radius: 10px;
-    box-shadow: #000000;
-    padding: 20px;
-    margin: 3px;
-    background-image: url("/HTML/CSS/Pic/tringa.jpg");
-    background-size: cover;
+#eventdes {
+  height: 200px;
+  width: auto;
+  background-color: #FFD2D7;
+  border: 5px black;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px black;
+  padding: 20px;
+  margin: 5px 20px 5px 20px;
+  background-image: url("/HTML/CSS/Pic/tringa.jpg");
+  background-size: cover;
 }
-#eventdes h1{
-    text-align: center;
+
+#eventdes h1 {
+  text-align: center;
 }
 
 
 /*event list css*/
 #eventlist {
-    height: 530px;
-    width: device-width;
-    background-color: #9288F8;
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-items: flex-start;
+  flex-direction: row;
+}
+
+#eventBord {
+  max-width: 70%;
+  border: 5px black;
+  background-color: #9288F8;
+  border-radius: 20px;
+  margin: 5px 20px 5px 20px;
+  box-shadow: 0px 0px 10px black;
 }
 
 
-    .eventbox {
-        background-color: rgba(0, 0, 0, 0.5);
-        width: 350px;
-        height: 150px;
-        border: 2px solid black;
-        border-radius: 25px;
-        display: inline-block;
-        color: rgb(12, 0, 0);
-        text-align:center;
-        text-shadow: 10px;
-        font-weight: 900;
-        padding: 10px;
-        box-sizing: border-box;
-        margin: 10px;
-    }
-    #text{
-        height: 30px;
-        width: 160px;
-        background-color: #9288F8;
-        box-shadow: 0 8px 15px rgb(14, 0, 0);
-        border: 2px black;
-        border-radius: 10px;
-    }
-
-    .eventbox:hover{
-        box-shadow: 0 8px 15px rgb(14, 0, 0);
-        transition: margin-left 1s ease-in-out 1s;
-    }
-    
-  #photography{
-    background-image: url("./Pic/photography.png");
-    background-size: cover;
-  }  
-  #Sudoku{
-    background-image: url("./Pic/sudo.png");
-    background-size: cover;
-  }
-  #Standup{
-    background-image: url("./Pic/standup.png");
-    background-size: cover;
-  }
-  #Debating{
-    background-image: url("./Pic/sudo.png");
-    background-size: cover;
-  }
-  #QuizCompetition{
-    background-image: url("./Pic/quizz.png");
-    background-size: cover;
-  }
-  #Chess{
-    background-image: url("./Pic/chess.png");
-    background-size: cover;
-  }
-  #Hackathon{
-    background-image: url("./Pic/hacke.png");
-    background-size: cover;
-  }
-  #Singing{
-    background-image: url("./Pic/singing.png");
-    background-size: cover;
-  }
-  #Dancing{
-    background-image: url("./Pic/dance.png");
-    background-size: cover;
-  }
-/*}
-
-
-
-/*footer css*/
-
-
-/* Footer styles */
-
-
-/* Font Awesome icons */
-.fa {
-    font-size: inherit;
-}
-.site-footer {
-    background-color: #322653;
-    color: white;
-    padding: 30px 0;
-    display: flex;
-    direction: end;
+.eventbox {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 320px;
+  height: 120px;
+  border: 2px solid black;
+  border-radius: 25px;
+  display: inline-block;
+  color: rgb(12, 0, 0);
+  text-align: center;
+  text-shadow: 10px;
+  font-weight: 900;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 10px;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-    text-align: center;
+#text {
+  height: 30px;
+  width: 160px;
+  background-color: #9288F8;
+  box-shadow: 0 8px 15px rgb(14, 0, 0);
+  border: 2px black;
+  border-radius: 10px;
+}
+
+.eventbox:hover {
+  box-shadow: 0 8px 15px rgb(14, 0, 0);
+  transition: margin-left 1s ease-in-out 1s;
+}
+
+#photography {
+  background-image: url("./Pic/photography.png");
+  background-size: cover;
+}
+
+#Sudoku {
+  background-image: url("./Pic/sudo.png");
+  background-size: cover;
+}
+
+#Standup {
+  background-image: url("./Pic/standup.png");
+  background-size: cover;
+}
+
+#Debating {
+  background-image: url("./Pic/sudo.png");
+  background-size: cover;
+}
+
+#QuizCompetition {
+  background-image: url("./Pic/quizz.png");
+  background-size: cover;
+}
+
+#Chess {
+  background-image: url("./Pic/chess.png");
+  background-size: cover;
+}
+
+#Hackathon {
+  background-image: url("./Pic/hacke.png");
+  background-size: cover;
+}
+
+#Singing {
+  background-image: url("./Pic/singing.png");
+  background-size: cover;
+}
+
+#Dancing {
+  background-image: url("./Pic/dance.png");
+  background-size: cover;
+}
+
+
+
+
+/* notice css */
+.notice {
+  background-color: #9288F8;
+  color: #fff;
+  padding: 1rem;
+  overflow: hidden;
+  width: 26%;
+  border-radius: 20px;
+  margin: 5px 20px 5px 5px;
+  box-shadow: 0px 0px 10px black;
+}
+
+.notice-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 2px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border-bottom: 1px solid #fff;
+  text-decoration: none;
+}
+
+.notice-item a {
+  color: #050000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.notice-date {
+  color: #ff0000;
+  font-weight: bolder;
+}
+
+/* Add media queries for responsive design if needed */
+
+
+/* testinomial */
+.testimonial-container {
+  display: flex;
+  overflow-x: scroll;
+  padding: 1.5rem 0;
+  scroll-behavior: smooth;
+}
+
+.testimonials {
+  background-color: #f5f5f5;
+  padding: 2rem;
+  margin: 5px 20px 5px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px black;
+}
+
+
+.testimonials h2 {
+  color: #322653;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.testimonial {
+  display: grid; /* Use CSS Grid for layout */
+  grid-template-columns: 80px 1fr; /* Columns: profile photo and testimonial text */
+  gap: 1.5rem; /* Spacing between columns and rows */
+  margin-bottom: 2rem;
+  margin: 10px;
+  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  min-width: 600px;
+}
+
+.testimonial-photo {
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.testimonial-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.testimonial-text p {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.testimonial-author {
+  color: #777;
+}
+
+
+
+/* Teachers prifle css */
+
+.profiles {
+  background-color: #f5f5f5;
+  padding: 2rem;
+  margin: 5px 20px 5px 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px black;
+  display: flex;
+}
+
+.profiles h3 {
+  color: #322653;
+  margin-bottom: 10px;
+}
+
+.profile {
+  display: flex;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.profile-photo {
+  flex: 0 0 120px; /* Fixed width for the photo */
+  margin-right: 1.5rem;
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.profile-details {
+  flex: 1;
+}
+
+.profile-details p {
+  color: #555;
+  margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+/* footer */
+footer {
+  background-color: #322653;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
+  background-color: #322653;
+  width: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
 
-.footer-logo img {
-    width: 100px;
-    height: auto;
+.footer-section {
+  background-color: #322653;
+  flex: 1;
+  padding: 1rem;
+  box-sizing: border-box;
 }
 
-.footer-links ul {
-    list-style: none;
+.footer-links {
+  background-color: #322653;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
-.footer-links li {
-    margin-bottom: 10px;
+#footLink {
+  background-color: #322653;
 }
+
 
 .footer-links a {
-    color: white;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: flex-start;
 }
 
-.footer-social ul {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    /* padding: 10px 2px 2px 100px; */
+.footer-links a:hover {
+  transform: scale(1.2);
+  color: red;
+  transition-duration: 0.2s;
 }
 
-.footer-social li {
-    margin-right: 15px;
+.footer-social img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
 }
 
-.footer-social a {
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    }
+.footer-social img:hover {
+  transform: scale(1.6);
+  transition-duration: 0.2s;
+}
+
+.footer-map {
+  flex: 2;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+  /* Set a minimum height for the map box */
+}
+
+.footer-map iframe {
+  width: 100%;
+  height: 98%;
+  border: none;
+}
 
 .footer-bottom {
-    margin-top: 10px;
-    font-size: 14px;
+  font-family: 'Times New Roman', Times, serif;
 }
+
+
+
 /* Add media queries for responsiveness */
 @media screen and (max-width: 768px) {
-    /* Adjust the header font size for smaller screens */
-    header h1 {
-      font-size: 24px;
-    }
-    
-    /* Adjust the event boxes for smaller screens */
-    .eventbox {
-      width: 100%;
-      margin: 10px 0;
-    }
-    
-    /* Adjust the footer layout for smaller screens */
-    .footer-content {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-    
-    .footer-links {
-      margin-top: 10px;
-    }
-    
-    .footer-social {
-      margin-top: 10px;
-    }
+
+  /* Adjust the header font size for smaller screens */
+  header h1 {
+    font-size: 24px;
   }
-  /* Add media queries for responsiveness */
+
+  /* Adjust the event boxes for smaller screens */
+  .eventbox {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  /* Adjust the footer layout for smaller screens */
+  .footer-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-links {
+    margin-top: 10px;
+  }
+
+  .footer-social {
+    margin-top: 10px;
+  }
+}
+
+/* Add media queries for responsiveness */
 @media screen and (max-width: 768px) {
-    /* Adjust the header font size for smaller screens */
-    header h1 {
-      font-size: 24px;
-    }
-    
-    /* Adjust the event boxes for smaller screens */
-    .eventbox {
-      width: 100%;
-      margin: 10px 0;
-    }
-    
-    /* Adjust the footer layout for smaller screens */
-    .footer-content {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-    
-    .footer-links {
-      margin-top: 10px;
-    }
-    
-    .footer-social {
-      margin-top: 10px;
-    }
+
+  /* Adjust the header font size for smaller screens */
+  header h1 {
+    font-size: 24px;
   }
-  
-  @media screen and (max-width: 480px) {
-    /* Adjust the header font size for smaller smartphones */
-    header h1 {
-      font-size: 20px;
-    }
-    
-    /* Adjust the search input for smaller smartphones */
-    #search-input {
-      width: 100%; /* Full width for smaller screens */
-    }
-    
-    /* Adjust the suggestions list for smaller smartphones */
-    #suggestions-list {
-      width: 100%; /* Full width for smaller screens */
-    }
-    
-    /* Adjust the event boxes for smaller smartphones */
-    .eventbox {
-      width: 100%;
-      margin: 10px 0;
-    }
-    
-    /* Adjust the footer layout for smaller smartphones */
-    .footer-links {
-      text-align: center;
-    }
-    
-    .footer-social {
-      align-items: center;
-    }
+
+  /* Adjust the event boxes for smaller screens */
+  .eventbox {
+    width: 100%;
+    margin: 10px 0;
   }
-  
-  
+
+  /* Adjust the footer layout for smaller screens */
+  .footer-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-links {
+    margin-top: 10px;
+  }
+
+  .footer-social {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  /* Adjust the header font size for smaller smartphones */
+  header h1 {
+    font-size: 20px;
+  }
+
+  /* Adjust the search input for smaller smartphones */
+  #search-input {
+    width: 100%;
+    /* Full width for smaller screens */
+  }
+
+  /* Adjust the suggestions list for smaller smartphones */
+  #suggestions-list {
+    width: 100%;
+    /* Full width for smaller screens */
+  }
+
+  /* Adjust the event boxes for smaller smartphones */
+  .eventbox {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  /* Adjust the footer layout for smaller smartphones */
+  .footer-links {
+    text-align: center;
+  }
+
+  .footer-social {
+    align-items: center;
+  }
+}

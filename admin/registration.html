@@ -1,46 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <title>Event Management Dashboard</title>
+    <link rel="stylesheet" href="registration.css">
+    <title>Student Event Registration</title>
 </head>
-
 <body>
     <header>
-        <h1>PCE Event Management Dashboard</h1>
+        <h1>Student Event Registration</h1>
     </header>
     <main>
-        <section class="event-form">
-            <h2>Create New Event</h2>
-            <form id="eventForm">
-                <label for="eventName">Event Name:</label>
-                <input type="text" id="eventName" name="eventName" required>
-                <label for="eventDate">Event Date:</label>
-                <input type="date" id="eventDate" name="eventDate" required>
-                <button type="submit">Create Event</button>
+        <section class="registration-form">
+            <h2>Register for an Event</h2>
+            <form id="registrationForm">
+                <label for="studentName">Your Name:</label>
+                <input type="text" id="studentName" name="studentName" required>
+
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required>
+
+                <label for="class">Class:</label>
+                <input type="text" id="class" name="class" required>
+
+                <label for="course">Course:</label>
+                <input type="text" id="course" name="course" required>
+
+                <label for="college">College:</label>
+                <input type="text" id="college" name="college" required>
+
+                <label for="branch">Branch:</label>
+                <input type="text" id="branch" name="branch" required>
+
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="" disabled selected>Select your gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="selectedEvent">Select Event:</label>
+                <select id="selectedEvent" name="selectedEvent" required>
+                    <option value="" disabled selected>Select an Event</option>
+                    <!-- You would populate the options dynamically using JavaScript -->
+                </select>
+                <button type="submit">Register</button>
             </form>
         </section>
-        <section class="event-list">
-            <h2>Event List</h2>
-            <ul id="eventList">
-                <li>
-                    <strong>Event Name:</strong> <span class="event-name">Sample Event</span><br>
-                    <strong>Event Date:</strong> <span class="event-date">2023-08-22</span><br>
-                    <strong>Registered Students:</strong> <span class="registered-count">0</span>
-                </li>
-
-            </ul>
-        </section>
-        <section class="student-registration">
-            <h2>Student Registration</h2>
-            <div id="button">
-                <label for="button"><a href="registration.html">Register for Events</a></label>
-            </div>
-        </section>
-
     </main>
 
     <!-- footer -->
@@ -85,7 +92,7 @@
         </div>
     </footer>
 
-    <script src="index.js"></script>
+    
+    <script src="registration.js"></script>
 </body>
-
 </html>

@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+header {
+    background-color: #322653;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+section {
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #322653;
+    margin-bottom: 1.5rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.share-buttons a {
+    display: inline-block;
+    background-color: #ddd;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+.share-buttons a:hover {
+    background-color: #aaa;
+}
+
+.share-buttons img {
+    width: 30px;
+    height: 30px;
+}
+
+.register-button {
+    background-color: #322653;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.register-button:hover {
+    background-color: #1b1440;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #322653;
+    color: #fff;
+    font-size: 0.8rem;
+}
