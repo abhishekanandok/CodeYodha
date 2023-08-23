@@ -18,6 +18,75 @@ header {
   margin: 5px 20px 5px 20px;
   box-shadow: 0px 0px 10px black;
 }
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url("https://wallpapers.com/images/featured/indian-flag-yqfmermanpgsw0jm.jpg") center/cover no-repeat;
+  color: white; /* Set text color to white for better visibility */
+}
+
+/* Adjust other styling if needed */
+
+/* For links */
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+/* For buttons */
+button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+}
+
+/* Adjust other styling if needed */
+
+/* Adjust other styling if needed */
+
+/* For links */
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+/* For buttons */
+button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+}
+
+/* Adjust other styling if needed */
 
 /* Style for suggestion list items */
 #suggestions-list li {
@@ -186,7 +255,9 @@ Slider container .slider {
 #eventBord {
   max-width: 70%;
   border: 5px black;
-  background-color: #9288F8;
+ /* background-color: ;*/
+ background: url(./Pic/tringa.jpg), url(texture2.jpg) black;
+ background-repeat: repeat-x, no-repeat;
   border-radius: 20px;
   margin: 5px 20px 5px 20px;
   box-shadow: 0px 0px 10px black;
@@ -267,14 +338,56 @@ Slider container .slider {
   background-image: url("./Pic/dance.png");
   background-size: cover;
 }
+/*utsav mania div*/
+
+#eventdes {
+  position: relative; /* Required for absolute positioning of ::before pseudo-element */
+  overflow: hidden; /* Hide overflowing content */
+}
+
+.eventdes-content {
+  position: relative;
+  z-index: 2; /* Display content above the blurred background */
+  transition: opacity 0.3s ease; /* Smooth transition for opacity */
+}
+
+#eventdes::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./Pic/tringa.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: blur(10px); /* Apply the blur effect */
+  z-index: 1;
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease; /* Smooth transition for opacity */
+}
+
+#eventdes:hover::before,
+#eventdes:hover .eventdes-content {
+  opacity: 1; /* Show the blurred background and content when hovering */
+}
 
 
+#eventdes:hover::before {
+  opacity: 1; /* Show the black background when hovering */
+}
+
+#eventdes:hover .eventdes-content {
+  opacity: 1; /* Show the content when hovering */
+  transform: translateY(0); /* Pop-up the content */
+  font-weight: bold; /* Make the text bold when hovering */
+}
 
 
 /* notice css */
 .notice {
-  background-color: #9288F8;
-  color: #fff;
+  background-color: #ccf1f0;
+  color: #252424;
   padding: 1rem;
   overflow: hidden;
   width: 26%;
