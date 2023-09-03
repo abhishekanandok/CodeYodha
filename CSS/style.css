@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  background-color: #8062D6;
+  background-color: #8062d6;
   color: white;
   padding: 20px;
   text-align: center;
@@ -22,7 +22,8 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: url("https://wallpapers.com/images/featured/indian-flag-yqfmermanpgsw0jm.jpg") center/cover no-repeat;
+  background: url("https://wallpapers.com/images/featured/indian-flag-yqfmermanpgsw0jm.jpg")
+    center/cover no-repeat;
   color: white; /* Set text color to white for better visibility */
 }
 
@@ -132,13 +133,12 @@ button:hover {
   height: 40px;
 }
 
-
 #suggestions-list {
   position: absolute;
   top: 100%;
   left: 0;
   width: 100%;
-  background-color: #C0C0C0;
+  background-color: #c0c0c0;
   border: 1px solid #808080;
   border-radius: 5px;
   box-shadow: 0px 4px 8px rgba(104, 11, 11, 0.1);
@@ -167,8 +167,6 @@ button:hover {
   scale: 1.1;
 }
 
-
-
 /* navebar */
 .nav1 {
   border-radius: 10px;
@@ -179,7 +177,7 @@ button:hover {
 }
 
 nav {
-  background-color: #9288F8;
+  background-color: #9288f8;
   padding: 10px;
   text-align: center;
 }
@@ -223,12 +221,11 @@ Slider container .slider {
   object-fit: cover;
 }
 
-
 /*event list css*/
 #eventdes {
   height: 200px;
   width: auto;
-  background-color: #FFD2D7;
+  background-color: #ffd2d7;
   border: 5px black;
   border-radius: 10px;
   box-shadow: 0px 0px 10px black;
@@ -242,7 +239,6 @@ Slider container .slider {
   text-align: center;
 }
 
-
 /*event list css*/
 #eventlist {
   height: auto;
@@ -255,14 +251,13 @@ Slider container .slider {
 #eventBord {
   max-width: 70%;
   border: 5px black;
- /* background-color: ;*/
- background: url(./Pic/tringa.jpg), url(texture2.jpg) black;
- background-repeat: repeat-x, no-repeat;
+  /* background-color: ;*/
+  background: url(./Pic/tringa.jpg), url(texture2.jpg) black;
+  background-repeat: repeat-x, no-repeat;
   border-radius: 20px;
   margin: 5px 20px 5px 20px;
   box-shadow: 0px 0px 10px black;
 }
-
 
 .eventbox {
   background-color: rgba(0, 0, 0, 0.5);
@@ -283,7 +278,7 @@ Slider container .slider {
 #text {
   height: 30px;
   width: 160px;
-  background-color: #9288F8;
+  background-color: #9288f8;
   box-shadow: 0 8px 15px rgb(14, 0, 0);
   border: 2px black;
   border-radius: 10px;
@@ -352,13 +347,13 @@ Slider container .slider {
 }
 
 #eventdes::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('./Pic/tringa.jpg');
+  background-image: url("./Pic/tringa.jpg");
   background-size: cover;
   background-position: center;
   filter: blur(10px); /* Apply the blur effect */
@@ -372,7 +367,6 @@ Slider container .slider {
   opacity: 1; /* Show the blurred background and content when hovering */
 }
 
-
 #eventdes:hover::before {
   opacity: 1; /* Show the black background when hovering */
 }
@@ -382,7 +376,6 @@ Slider container .slider {
   transform: translateY(0); /* Pop-up the content */
   font-weight: bold; /* Make the text bold when hovering */
 }
-
 
 /* notice css */
 .notice {
@@ -420,7 +413,6 @@ Slider container .slider {
 
 /* Add media queries for responsive design if needed */
 
-
 /* testinomial */
 .testimonial-container {
   display: flex;
@@ -436,7 +428,6 @@ Slider container .slider {
   border-radius: 10px;
   box-shadow: 0px 0px 10px black;
 }
-
 
 .testimonials h2 {
   color: #322653;
@@ -484,8 +475,6 @@ Slider container .slider {
 .testimonial-author {
   color: #777;
 }
-
-
 
 /* Teachers prifle css */
 
@@ -536,12 +525,6 @@ Slider container .slider {
   margin-bottom: 5px;
 }
 
-
-
-
-
-
-
 /* footer */
 footer {
   background-color: #322653;
@@ -577,7 +560,6 @@ footer {
 #footLink {
   background-color: #322653;
 }
-
 
 .footer-links a {
   color: #fff;
@@ -622,14 +604,11 @@ footer {
 }
 
 .footer-bottom {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
-
-
 
 /* Add media queries for responsiveness */
 @media screen and (max-width: 768px) {
-
   /* Adjust the header font size for smaller screens */
   header h1 {
     font-size: 24px;
@@ -658,7 +637,6 @@ footer {
 
 /* Add media queries for responsiveness */
 @media screen and (max-width: 768px) {
-
   /* Adjust the header font size for smaller screens */
   header h1 {
     font-size: 24px;
@@ -686,7 +664,6 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
-
   /* Adjust the header font size for smaller smartphones */
   header h1 {
     font-size: 20px;
@@ -717,5 +694,62 @@ footer {
 
   .footer-social {
     align-items: center;
+  }
+}
+@media screen and (max-width: 425px) {
+  header {
+    background-color: #8062d6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    background-image: url("https://wallpapers.com/images/featured/indian-flag-yqfmermanpgsw0jm.jpg");
+  }
+  .nav1 {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  #eventdes {
+    height: 325px;
+  }
+  #eventlist {
+    flex-direction: column;
+    align-items: center;
+  }
+  .notice {
+    width: 76%;
+  }
+  .profiles {
+    flex-direction: column;
+  }
+  .profile {
+    flex-direction: column;
+    gap: 30px;
+    font-size: 11px;
+  }
+
+  .footer-bottom {
+    font-size: 13px;
+  }
+  .testimonial-container {
+    display: flex;
+
+    overflow-x: scroll;
+    padding: 1.5rem 0;
+
+    scroll-behavior: smooth;
+  }
+  .testimonial {
+    grid-template-columns: repeat(4, 70px);
+    grid-template-rows: repeat(4, 70px);
+    min-width: 300px;
+  }
+  .testimonial-photo {
+    grid-row: 1/3;
+    grid-column: 1/3;
+  }
+  .testimonial-text {
+    grid-row: 3/4;
+    grid-column: 1/4;
   }
 }
