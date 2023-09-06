@@ -13,20 +13,6 @@ header {
   background-image: url("https://wallpapers.com/images/featured/indian-flag-yqfmermanpgsw0jm.jpg");
 }
 
-.header1 {
-  border-radius: 20px;
-  margin: 5px 20px 5px 20px;
-  box-shadow: 0px 0px 10px black;
-}
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background: url("https://wallpapers.com/images/featured/indian-flag-yqfmermanpgsw0jm.jpg")
-    center/cover no-repeat;
-  color: white; /* Set text color to white for better visibility */
-}
-
 /* Adjust other styling if needed */
 
 /* For links */
@@ -56,38 +42,6 @@ button:hover {
   transform: scale(1.1);
 }
 
-/* Adjust other styling if needed */
-
-/* Adjust other styling if needed */
-
-/* For links */
-a {
-  color: white;
-  text-decoration: none;
-}
-
-a:hover {
-  color: red;
-}
-
-/* For buttons */
-button {
-  padding: 5px 10px;
-  background-color: #007bff;
-  border: none;
-  border-radius: 20px;
-  color: white;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
-}
-
-button:hover {
-  background-color: #0056b3;
-  transform: scale(1.1);
-}
-
-/* Adjust other styling if needed */
 
 /* Style for suggestion list items */
 #suggestions-list li {
@@ -170,7 +124,7 @@ button:hover {
 /* navebar */
 .nav1 {
   border-radius: 10px;
-  margin: 5px 20px 5px 20px;
+  margin: 5px 0px 5px 0px;
   box-shadow: 0px 0px 10px black;
   display: flex;
   justify-content: space-evenly;
@@ -197,7 +151,7 @@ nav {
 /*image css*/
 #carouselExampleCaptions {
   border-radius: 30px;
-  margin: 5px 20px 5px 20px;
+  margin: 5px 0px 5px 0px;
   box-shadow: 0px 0px 10px black;
 }
 
@@ -230,7 +184,7 @@ Slider container .slider {
   border-radius: 10px;
   box-shadow: 0px 0px 10px black;
   padding: 20px;
-  margin: 5px 20px 5px 20px;
+  margin: 5px 0px 5px 0px;
   background-image: url("/HTML/CSS/Pic/tringa.jpg");
   background-size: cover;
 }
@@ -255,7 +209,7 @@ Slider container .slider {
   background: url(./Pic/tringa.jpg), url(texture2.jpg) black;
   background-repeat: repeat-x, no-repeat;
   border-radius: 20px;
-  margin: 5px 20px 5px 20px;
+  margin: 5px 0px 5px 0px;
   box-shadow: 0px 0px 10px black;
 }
 
@@ -383,9 +337,9 @@ Slider container .slider {
   color: #252424;
   padding: 1rem;
   overflow: hidden;
-  width: 26%;
+  width: 29%;
   border-radius: 20px;
-  margin: 5px 20px 5px 5px;
+  margin: 5px 0px 5px 10px;
   box-shadow: 0px 0px 10px black;
 }
 
@@ -424,7 +378,7 @@ Slider container .slider {
 .testimonials {
   background-color: #f5f5f5;
   padding: 2rem;
-  margin: 5px 20px 5px 20px;
+  margin: 5px 0px 5px 0px;
   border-radius: 10px;
   box-shadow: 0px 0px 10px black;
 }
@@ -481,7 +435,7 @@ Slider container .slider {
 .profiles {
   background-color: #f5f5f5;
   padding: 2rem;
-  margin: 5px 20px 5px 20px;
+  margin: 5px 0px 5px 0px;
   border-radius: 20px;
   box-shadow: 0px 0px 10px black;
   display: flex;

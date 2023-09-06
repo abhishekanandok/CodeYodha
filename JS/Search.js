@@ -1,13 +1,13 @@
 // List of events and their corresponding URLs
 const events = [
-    { name: "Photography", url: "photography.html" },
-    { name: "Dancing", url: "dance.html" },
-    { name: "Singing", url: "singing.html" },
-    { name: "Hackathon", url: "hackthon.html" },
-    { name: "Chess", url: "chess.html" },
-    { name: "Quiz", url: "quiz.html" },
-    { name: "Standup", url: "standup.html" },
-    { name: "Sudoku", url: "sudoku.html" },
+    { name: "Photography", url: "./pages/photography.html" },
+    { name: "Dancing", url: "./pages/dance.html" },
+    { name: "Singing", url: "./pages/singing.html" },
+    { name: "Hackathon", url: "./pages/hackthon.html" },
+    { name: "Chess", url: "./pages/chess.html" },
+    { name: "Quiz", url: "./pages/quiz.html" },
+    { name: "Standup", url: "./pages/standup.html" },
+    { name: "Sudoku", url: "./pages/sudoku.html" },
 ];
 
 // Get references to the search elements
