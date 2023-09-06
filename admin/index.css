@@ -10,18 +10,13 @@ header {
     text-align: center;
     padding: 1rem;
 }
-#image{
-    background-color: antiquewhite;
-}
 
 main {
     max-width: 800px;
     margin: 2rem auto;
     padding: 0 1rem;
 }
-#background{
-background-color: antiquewhite;
-}
+
 
 .event-form {
     border: 1px solid #ddd;
