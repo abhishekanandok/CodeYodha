@@ -6,27 +6,13 @@ body {
 }
 
 header {
-  background-color: #8062D6;
+  background-color: #8062d6;
   color: white;
   padding: 20px;
   text-align: center;
   background-image: url("https://wallpapers.com/images/featured/indian-flag-yqfmermanpgsw0jm.jpg");
 }
 
-.header1 {
-  border-radius: 20px;
-  margin: 5px 20px 5px 20px;
-  box-shadow: 0px 0px 10px black;
-}
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background: url("https://wallpapers.com/images/featured/indian-flag-yqfmermanpgsw0jm.jpg") center/cover no-repeat;
-  color: white; /* Set text color to white for better visibility */
-}
-
-/* Adjust other styling if needed */
 
 /* For links */
 a {
@@ -55,38 +41,6 @@ button:hover {
   transform: scale(1.1);
 }
 
-/* Adjust other styling if needed */
-
-/* Adjust other styling if needed */
-
-/* For links */
-a {
-  color: white;
-  text-decoration: none;
-}
-
-a:hover {
-  color: red;
-}
-
-/* For buttons */
-button {
-  padding: 5px 10px;
-  background-color: #007bff;
-  border: none;
-  border-radius: 20px;
-  color: white;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
-}
-
-button:hover {
-  background-color: #0056b3;
-  transform: scale(1.1);
-}
-
-/* Adjust other styling if needed */
 
 /* Style for suggestion list items */
 #suggestions-list li {
@@ -132,13 +86,12 @@ button:hover {
   height: 40px;
 }
 
-
 #suggestions-list {
   position: absolute;
   top: 100%;
   left: 0;
   width: 100%;
-  background-color: #C0C0C0;
+  background-color: #c0c0c0;
   border: 1px solid #808080;
   border-radius: 5px;
   box-shadow: 0px 4px 8px rgba(104, 11, 11, 0.1);
@@ -167,19 +120,17 @@ button:hover {
   scale: 1.1;
 }
 
-
-
 /* navebar */
 .nav1 {
   border-radius: 10px;
-  margin: 5px 20px 5px 20px;
+  margin: 5px 0px 5px 0px;
   box-shadow: 0px 0px 10px black;
   display: flex;
   justify-content: space-evenly;
 }
 
 nav {
-  background-color: #9288F8;
+  background-color: #9288f8;
   padding: 10px;
   text-align: center;
 }
@@ -199,7 +150,7 @@ nav {
 /*image css*/
 #carouselExampleCaptions {
   border-radius: 30px;
-  margin: 5px 20px 5px 20px;
+  margin: 5px 0px 5px 0px;
   box-shadow: 0px 0px 10px black;
 }
 
@@ -223,17 +174,16 @@ Slider container .slider {
   object-fit: cover;
 }
 
-
 /*event list css*/
 #eventdes {
   height: 200px;
   width: auto;
-  background-color: #FFD2D7;
+  background-color: #ffd2d7;
   border: 5px black;
   border-radius: 10px;
   box-shadow: 0px 0px 10px black;
   padding: 20px;
-  margin: 5px 20px 5px 20px;
+  margin: 5px 0px 5px 0px;
   background-image: url("/HTML/CSS/Pic/tringa.jpg");
   background-size: cover;
 }
@@ -241,7 +191,6 @@ Slider container .slider {
 #eventdes h1 {
   text-align: center;
 }
-
 
 /*event list css*/
 #eventlist {
@@ -255,14 +204,13 @@ Slider container .slider {
 #eventBord {
   max-width: 70%;
   border: 5px black;
- /* background-color: ;*/
- background: url(./Pic/tringa.jpg), url(texture2.jpg) black;
- background-repeat: repeat-x, no-repeat;
+  /* background-color: ;*/
+  background: url(./Pic/tringa.jpg), url(texture2.jpg) black;
+  background-repeat: repeat-x, no-repeat;
   border-radius: 20px;
-  margin: 5px 20px 5px 20px;
+  margin: 5px 0px 5px 0px;
   box-shadow: 0px 0px 10px black;
 }
-
 
 .eventbox {
   background-color: rgba(0, 0, 0, 0.5);
@@ -283,7 +231,7 @@ Slider container .slider {
 #text {
   height: 30px;
   width: 160px;
-  background-color: #9288F8;
+  background-color: #9288f8;
   box-shadow: 0 8px 15px rgb(14, 0, 0);
   border: 2px black;
   border-radius: 10px;
@@ -352,13 +300,13 @@ Slider container .slider {
 }
 
 #eventdes::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('./Pic/tringa.jpg');
+  background-image: url("./Pic/tringa.jpg");
   background-size: cover;
   background-position: center;
   filter: blur(10px); /* Apply the blur effect */
@@ -372,7 +320,6 @@ Slider container .slider {
   opacity: 1; /* Show the blurred background and content when hovering */
 }
 
-
 #eventdes:hover::before {
   opacity: 1; /* Show the black background when hovering */
 }
@@ -383,16 +330,15 @@ Slider container .slider {
   font-weight: bold; /* Make the text bold when hovering */
 }
 
-
 /* notice css */
 .notice {
   background-color: #ccf1f0;
   color: #252424;
   padding: 1rem;
   overflow: hidden;
-  width: 26%;
+  width: 29%;
   border-radius: 20px;
-  margin: 5px 20px 5px 5px;
+  margin: 5px 0px 5px 10px;
   box-shadow: 0px 0px 10px black;
 }
 
@@ -420,7 +366,6 @@ Slider container .slider {
 
 /* Add media queries for responsive design if needed */
 
-
 /* testinomial */
 .testimonial-container {
   display: flex;
@@ -432,11 +377,10 @@ Slider container .slider {
 .testimonials {
   background-color: #f5f5f5;
   padding: 2rem;
-  margin: 5px 20px 5px 20px;
+  margin: 5px 0px 5px 0px;
   border-radius: 10px;
   box-shadow: 0px 0px 10px black;
 }
-
 
 .testimonials h2 {
   color: #322653;
@@ -485,14 +429,12 @@ Slider container .slider {
   color: #777;
 }
 
-
-
 /* Teachers prifle css */
 
 .profiles {
   background-color: #f5f5f5;
   padding: 2rem;
-  margin: 5px 20px 5px 20px;
+  margin: 5px 0px 5px 0px;
   border-radius: 20px;
   box-shadow: 0px 0px 10px black;
   display: flex;
@@ -536,12 +478,6 @@ Slider container .slider {
   margin-bottom: 5px;
 }
 
-
-
-
-
-
-
 /* footer */
 footer {
   background-color: #322653;
@@ -577,7 +513,6 @@ footer {
 #footLink {
   background-color: #322653;
 }
-
 
 .footer-links a {
   color: #fff;
@@ -622,14 +557,11 @@ footer {
 }
 
 .footer-bottom {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
-
-
 
 /* Add media queries for responsiveness */
 @media screen and (max-width: 768px) {
-
   /* Adjust the header font size for smaller screens */
   header h1 {
     font-size: 24px;
@@ -658,7 +590,6 @@ footer {
 
 /* Add media queries for responsiveness */
 @media screen and (max-width: 768px) {
-
   /* Adjust the header font size for smaller screens */
   header h1 {
     font-size: 24px;
@@ -686,7 +617,6 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
-
   /* Adjust the header font size for smaller smartphones */
   header h1 {
     font-size: 20px;
@@ -717,5 +647,62 @@ footer {
 
   .footer-social {
     align-items: center;
+  }
+}
+@media screen and (max-width: 425px) {
+  header {
+    background-color: #8062d6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    background-image: url("https://wallpapers.com/images/featured/indian-flag-yqfmermanpgsw0jm.jpg");
+  }
+  .nav1 {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  #eventdes {
+    height: 325px;
+  }
+  #eventlist {
+    flex-direction: column;
+    align-items: center;
+  }
+  .notice {
+    width: 76%;
+  }
+  .profiles {
+    flex-direction: column;
+  }
+  .profile {
+    flex-direction: column;
+    gap: 30px;
+    font-size: 11px;
+  }
+
+  .footer-bottom {
+    font-size: 13px;
+  }
+  .testimonial-container {
+    display: flex;
+
+    overflow-x: scroll;
+    padding: 1.5rem 0;
+
+    scroll-behavior: smooth;
+  }
+  .testimonial {
+    grid-template-columns: repeat(4, 70px);
+    grid-template-rows: repeat(4, 70px);
+    min-width: 300px;
+  }
+  .testimonial-photo {
+    grid-row: 1/3;
+    grid-column: 1/3;
+  }
+  .testimonial-text {
+    grid-row: 3/4;
+    grid-column: 1/4;
   }
 }
