@@ -1,0 +1,154 @@
+/* styles.css for Student Registration Page */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #322653;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.registration-form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.registration-form h2 {
+    color: #322653;
+    margin-bottom: 1.5rem;
+}
+
+.registration-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.registration-form input[type="text"],
+.registration-form input[type="number"],
+.registration-form select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.registration-form select {
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url("arrow-down.png");
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 1.5rem;
+}
+
+.registration-form button {
+    background-color: #322653;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.registration-form button:hover {
+    background-color: #522b8e;
+}
+
+/* Add media queries for responsive design if needed */
+
+
+/* footer */
+footer {
+    background-color: #322653;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.footer-content {
+    width: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer-links a:hover {
+    transform: scale(1.2);
+    color: red;
+    transition-duration: 0.2s;
+}
+
+.footer-social img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.footer-social img:hover {
+    transform: scale(1.6);
+    transition-duration: 0.2s;
+}
+
+.footer-map {
+    flex: 2;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    /* Set a minimum height for the map box */
+}
+
+.footer-map iframe {
+    width: 100%;
+    height: 98%;
+    border: none;
+}
+
+.footer-bottom {
+    font-family: 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Event Management Dashboard</title>
+</head>
+
+<body id="image">
+    <header>
+        <h1>PCE Event Management Dashboard</h1>
+    </header>
+    <main id="background">
+        <section class="event-form">
+            <h2>Create New Event</h2>
+            <form id="eventForm">
+                <label for="eventName">Event Name:</label>
+                <input type="text" id="eventName" name="eventName" required>
+                <label for="eventDate">Event Date:</label>
+                <input type="date" id="eventDate" name="eventDate" required>
+                <button type="submit">Create Event</button>
+            </form>
+        </section>
+        <section class="event-list">
+            <h2>Event List</h2>
+            <ul id="eventList">
+                <li>
+                    <strong>Event Name:</strong> <span class="event-name">Sample Event</span><br>
+                    <strong>Event Date:</strong> <span class="event-date">2023-08-22</span><br>
+                    <strong>Registered Students:</strong> <span class="registered-count">0</span>
+                </li>
+
+            </ul>
+        </section>
+        <section class="student-registration">
+            <h2>Student Registration</h2>
+            <div id="button">
+                <label for="button"><a href="registration.html">Register for Events</a></label>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section footer-contact">
+                <h3>Contact Us</h3>
+                <p>Polytechnic Chowk, Subhash Nagar, Purnia, Bihar 854301</p>
+                <p>Phone: 06454-226777</p>
+                <p>Email: pcepurnia@.com</p>
+            </div>
+            <div class="footer-section footer-links">
+                <h3>Links</h3>
+                <nav>
+                    <a href="../index.html">Home</a>
+                    <a href="../pages/aboutus.html">About Us</a>
+                    <a href="../index.html">Events</a>
+                    <a href="../pages/contanct_detalis.html">Contact</a>
+                </nav>
+            </div>
+            <div class="footer-section footer-social">
+                <h3>Follow Us</h3>
+                <a href="#"><img src="../CSS/Pic/slogo/Facebook_Logo_(2019).png" alt="Facebook"></a>
+                <a href="#"><img src="../CSS/Pic/slogo/twitter-3-logo-png-transparent.png" alt="Twitter"></a>
+                <a href="#"><img src="../CSS/Pic/slogo/instagram-Logo-PNG-Transparent-Background-download.png"
+                        alt="Instagram"></a>
+                <a href="#"><img src="../CSS/Pic/slogo/58e91afdeb97430e81906504.png" alt="Linkedln"></a>
+                <a href="#"><img src="../CSS/Pic/slogo/Youtube_logo.png" alt="YouTube"></a>
+            </div>
+            <div class="footer-section footer-map">
+                <h3>Location</h3>
+                <div class="footer-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3593.251215295019!2d87.46517137562806!3d25.762264608581425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eff9671d4a42b3%3A0x1e4bb69c1f00afc8!2sPurnea%20College%20of%20Engineering%20(PCE)%2C%20Purnea!5e0!3m2!1sen!2sin!4v1692714149889!5m2!1sen!2sin"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Event Registration Collage. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

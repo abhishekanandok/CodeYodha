@@ -1,0 +1,117 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  transition: transform 0.6s ease-in-out;
+}
+
+.form-container {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  z-index: 2;
+}
+
+.form-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-container button {
+  background-color: #3498db;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-container button:hover {
+  background-color: #2980b9;
+}
+
+.overlay-container {
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 50%;
+  z-index: 1;
+}
+
+.overlay {
+  position: relative;
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s ease-in-out;
+}
+
+.overlay-panel {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  width: 50%;
+  text-align: center;
+  top: 0;
+  height: 100%;
+}
+
+.overlay-left {
+  transform: translateX(-100%);
+}
+
+.overlay-right {
+  right: 0;
+}
+
+.ghost {
+  background-color: transparent;
+  border: 1px solid #3498db;
+  color: #3498db;
+  padding: 12px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.ghost:hover {
+  background-color: #3498db;
+  color: white;
+}

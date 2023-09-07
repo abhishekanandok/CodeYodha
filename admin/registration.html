@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registration.css">
+    <title>Student Event Registration</title>
+</head>
+<body>
+    <header>
+        <h1>Student Event Registration</h1>
+    </header>
+    <main>
+        <section class="registration-form">
+            <h2>Register for an Event</h2>
+            <form id="registrationForm">
+                <label for="studentName">Your Name:</label>
+                <input type="text" id="studentName" name="studentName" required>
+
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required>
+
+                <label for="class">Class:</label>
+                <input type="text" id="class" name="class" required>
+
+                <label for="course">Course:</label>
+                <input type="text" id="course" name="course" required>
+
+                <label for="college">College:</label>
+                <input type="text" id="college" name="college" required>
+
+                <label for="branch">Branch:</label>
+                <input type="text" id="branch" name="branch" required>
+
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="" disabled selected>Select your gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="selectedEvent">Select Event:</label>
+                <select id="selectedEvent" name="selectedEvent" required>
+                    <option value="" disabled selected>Select an Event</option>
+                    <!-- You would populate the options dynamically using JavaScript -->
+                </select>
+                <button type="submit">Register</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section footer-contact">
+                <h3>Contact Us</h3>
+                <p>Polytechnic Chowk, Subhash Nagar, Purnia, Bihar 854301</p>
+                <p>Phone: 06454-226777</p>
+                <p>Email: pcepurnia@.com</p>
+            </div>
+            <div class="footer-section footer-links">
+                <h3>Links</h3>
+                <nav>
+                    <a href="../index.html">Home</a>
+                    <a href="../pages/aboutus.html">About Us</a>
+                    <a href="../index.html">Events</a>
+                    <a href="../pages/contanct_detalis.html">Contact</a>
+                </nav>
+            </div>
+            <div class="footer-section footer-social">
+                <h3>Follow Us</h3>
+                <a href="#"><img src="../CSS/Pic/slogo/Facebook_Logo_(2019).png" alt="Facebook"></a>
+                <a href="#"><img src="../CSS/Pic/slogo/twitter-3-logo-png-transparent.png" alt="Twitter"></a>
+                <a href="#"><img src="../CSS/Pic/slogo/instagram-Logo-PNG-Transparent-Background-download.png"
+                        alt="Instagram"></a>
+                <a href="#"><img src="../CSS/Pic/slogo/58e91afdeb97430e81906504.png" alt="Linkedln"></a>
+                <a href="#"><img src="../CSS/Pic/slogo/Youtube_logo.png" alt="YouTube"></a>
+            </div>
+            <div class="footer-section footer-map">
+                <h3>Location</h3>
+                <div class="footer-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3593.251215295019!2d87.46517137562806!3d25.762264608581425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eff9671d4a42b3%3A0x1e4bb69c1f00afc8!2sPurnea%20College%20of%20Engineering%20(PCE)%2C%20Purnea!5e0!3m2!1sen!2sin!4v1692714149889!5m2!1sen!2sin"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Event Registration Collage. All rights reserved.</p>
+        </div>
+    </footer>
+
+    
+    <script src="registration.js"></script>
+</body>
+</html>

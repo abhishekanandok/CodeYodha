@@ -1,0 +1,96 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.admin-header {
+    background-color: #322653;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Container */
+.admin-container {
+    display: flex;
+}
+
+/* Sidebar */
+.admin-sidebar {
+    background-color: #322653;
+    color: white;
+    width: 250px;
+    padding: 20px;
+}
+
+.admin-sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.admin-sidebar li {
+    margin-bottom: 10px;
+}
+
+.admin-sidebar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* Additional CSS for dashboard text */
+.dashboard-text {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #322653;
+    text-align: center;
+    padding: 20px;
+    background-color: #FFD2D7;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.dashboard-text:hover {
+    background-color: #FAD2A9;
+}
+
+/* Main content */
+.admin-main {
+    flex: 1;
+    padding: 20px;
+    background-color: wheat;
+}
+/* ... (previous CSS) ... */
+
+/* Entry List */
+.entry-list {
+    background-color: #F4F2DE;
+    padding: 20px;
+    margin-top: 20px;
+    border-top: 1px solid #322653;
+}
+
+.entry-list h2 {
+    margin-bottom: 10px;
+}
+
+.entry-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.entry-list th, .entry-list td {
+    border: 1px solid #322653;
+    padding: 8px;
+    text-align: center;
+}
+
+.entry-list th {
+    background-color: #322653;
+    color: white;
+}
+
+/* ... (remaining CSS) ... */
