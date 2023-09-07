@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  background-color: #8062D6;
+  /*background-color: #8062D6;*/
   color: white;
  /* padding: 20px;*/
   text-align: center;
@@ -14,16 +14,16 @@ header {
 
 }
 
-.header1 {
+/*.header1 {
   border-radius: 20px;
   margin: 5px 20px 5px 20px;
   box-shadow: 0px 0px 10px black;
-}
+}*/
 body {
   font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background: url("https://wallpapers.com/images/featured/indian-flag-yqfmermanpgsw0jm.jpg") center/cover no-repeat;
+ /* margin: 0;
+  padding: 0;*/
+  background: url("https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjkxfHxldmVudCUyMG1hbmFnZW1lbnR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60") center/cover no-repeat;
   color: white; /* Set text color to white for better visibility */
 }
 
@@ -87,6 +87,7 @@ button:hover {
   transform: scale(1.1);
 }
 
+/* Adjust other styling if needed */
 
 /* Style for suggestion list items */
 #suggestions-list li {
@@ -132,12 +133,13 @@ button:hover {
   height: 40px;
 }
 
+
 #suggestions-list {
   position: absolute;
   top: 100%;
   left: 0;
   width: 100%;
-  background-color: #c0c0c0;
+  background-color: #C0C0C0;
   border: 1px solid #808080;
   border-radius: 5px;
   box-shadow: 0px 4px 8px rgba(104, 11, 11, 0.1);
@@ -166,17 +168,19 @@ button:hover {
   scale: 1.1;
 }
 
+
+
 /* navebar */
 .nav1 {
   border-radius: 10px;
-  margin: 5px 0px 5px 0px;
+  margin: 5px 20px 5px 20px;
   box-shadow: 0px 0px 10px black;
   display: flex;
   justify-content: space-evenly;
 }
 
 nav {
-  background-color: #9288F8;
+  /*background-color: #dbe1cf;*/
   padding: 10px;
   text-align: center;
 }
@@ -221,7 +225,7 @@ nav {
 /*image css*/
 #carouselExampleCaptions {
   border-radius: 30px;
-  margin: 5px 0px 5px 0px;
+  margin: 5px 20px 5px 20px;
   box-shadow: 0px 0px 10px black;
 }
 
@@ -245,23 +249,27 @@ Slider container .slider {
   object-fit: cover;
 }
 
+
 /*event list css*/
 #eventdes {
   height: 200px;
   width: auto;
-  background-color: #FFD2D7;
-  border: 5px black;
+
+  /*background-color: #FFD2D7;*/
+ /* border: 5px black;
   border-radius: 10px;
   box-shadow: 0px 0px 10px black;
   padding: 20px;
   margin: 5px 20px 5px 20px;
-  background-image: url("/HTML/CSS/Pic/tringa.jpg");
+  /*background-image: url("/HTML/CSS/Pic/tringa.jpg");*/
+ /* background-color: #dbe1cf;*/
   background-size: cover;
 }
 
 #eventdes h1 {
   text-align: center;
 }
+
 
 /*event list css*/
 #eventlist {
@@ -275,13 +283,15 @@ Slider container .slider {
 #eventBord {
   max-width: 70%;
   border: 5px black;
+
  /* background-color: ;*/
- background: url(./Pic/tringa.jpg), url(texture2.jpg) black;
+/* background: url(./Pic/tringa.jpg), url(texture2.jpg) black;*/
  background-repeat: repeat-x, no-repeat;
   border-radius: 20px;
-  margin: 5px 20px 5px 20px;
-  box-shadow: 0px 0px 10px black;
+/*  margin: 5px 20px 5px 20px;
+  box-shadow: 0px 0px 10px black;*/
 }
+
 
 .eventbox {
   background-color: rgba(0, 0, 0, 0.5);
@@ -302,7 +312,7 @@ Slider container .slider {
 #text {
   height: 30px;
   width: 160px;
-  background-color: #9288f8;
+  background-color: #9288F8;
   box-shadow: 0 8px 15px rgb(14, 0, 0);
   border: 2px black;
   border-radius: 10px;
@@ -374,13 +384,13 @@ Slider container .slider {
 }
 
 #eventdes::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("./Pic/tringa.jpg");
+  background-image: url('./Pic/tringa.jpg');
   background-size: cover;
   background-position: center;
   filter: blur(10px); /* Apply the blur effect */
@@ -394,6 +404,7 @@ Slider container .slider {
   opacity: 1; /* Show the blurred background and content when hovering */
 }
 
+
 #eventdes:hover::before {
   opacity: 1; /* Show the black background when hovering */
 }
@@ -404,6 +415,146 @@ Slider container .slider {
   font-weight: bold; /* Make the text bold when hovering */
 }
 
+.event-big-box {
+  width: 500px;
+  height: 500px;
+  border: 2px solid #322653;
+  border-radius: 25px;
+  display: inline-block;
+  color: #322653;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  margin: 50px;
+  overflow: hidden;
+  position: relative;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.event-big-box:hover {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+#eventlist {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: flex-end;
+  margin: 50px; /* Add some margin for spacing */
+}
+
+.event-box {
+  width: 500px;
+  height: 500px;
+  border: 2px solid #322653;
+  border-radius: 25px;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+  /*margin-right: auto;*/
+}
+.event-boxi {
+  width: 600px;
+  height: 600px;
+  border: 2px solid #322653;
+  border-radius: 25px;
+  background-size: cover;
+  background-position: right;
+  color: white;
+  display: hidden;
+  align-items: flex-end;
+  justify-content: center;
+  /* padding: 20px; */
+  /* padding-right: 1px; */
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+  margin-right: auto; /* Add this to move the box to the left side */
+  
+}
+.event-line {
+  display: flex; /* Display children side by side */
+  align-items: center; /* Vertically align children */
+  justify-content: space-between; /* Add space between children */
+  border: 1px solid #ccc; /* Add a border for the box */
+  padding: 10px; /* Add padding to the box */
+  margin-bottom: 20px; /* Add some space between boxes */
+ 
+}
+
+.event-boxii {
+  width: 500px;
+  height: 500px;
+  border: 2px solid #322653;
+  border-radius: 25px;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+ margin-right: auto; /* Add this to move the box to the left side */
+}
+
+
+.event-content {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 0 0 25px 25px;
+  text-align: left;
+}
+
+.event-content h4,
+.event-content p {
+  margin: 0;
+  color: white;
+}
+
+.event-box:hover {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.hackathon {
+  background-image: url("./Pic/hacke.png");
+  order: 1; /* Hackathon on the right side */
+}
+
+.dancing {
+  background-image: url("./Pic/dance.png");
+  order: 2; /* Dancing on the right side above Hackathon */
+}
+
+.singing {
+  background-image: url("./Pic/singing.png");
+  order: 3; /* Singing on the right side below Hackathon */
+}
+.event-line {
+  width: 500px; /* Same as the box width */
+  font-size: 20px; /* Adjust font size as needed */
+  color: white;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+
+
+
 
 /* notice css */
 .notice {
@@ -411,9 +562,9 @@ Slider container .slider {
   color: #252424;
   padding: 1rem;
   overflow: hidden;
-  width: 29%;
+  width: 26%;
   border-radius: 20px;
-  margin: 5px 0px 5px 10px;
+  margin: 5px 20px 5px 5px;
   box-shadow: 0px 0px 10px black;
 }
 
@@ -441,6 +592,7 @@ Slider container .slider {
 
 /* Add media queries for responsive design if needed */
 
+
 /* testinomial */
 .testimonial-container {
   display: flex;
@@ -452,10 +604,11 @@ Slider container .slider {
 /*.testimonials {
   /*background-color: #f5f5f5;
   padding: 2rem;
-  margin: 5px 0px 5px 0px;
+  margin: 5px 20px 5px 20px;
   border-radius: 10px;
   box-shadow: 0px 0px 10px black;
 }*/
+
 
 .testimonials h2 {
   color: #322653;
@@ -504,13 +657,15 @@ Slider container .slider {
   color: #777;
 }
 
+
+
 /* Teachers prifle css */
 
 .profiles {
   /*background-color: #f5f5f5;*/
   padding: 2rem;
-  margin: 5px 20px 5px 20px;
-  border-radius: 20px;
+  /*margin: 5px 20px 5px 20px;
+  border-radius: 20px;*/
   box-shadow: 0px 0px 10px black;
   display: flex;
 }
@@ -553,6 +708,12 @@ Slider container .slider {
   margin-bottom: 5px;
 }
 
+
+
+
+
+
+
 /* footer */
 footer {
   background-color: #322653;
@@ -588,6 +749,7 @@ footer {
 #footLink {
   background-color: #322653;
 }
+
 
 .footer-links a {
   color: #fff;
@@ -632,11 +794,14 @@ footer {
 }
 
 .footer-bottom {
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Times New Roman', Times, serif;
 }
+
+
 
 /* Add media queries for responsiveness */
 @media screen and (max-width: 768px) {
+
   /* Adjust the header font size for smaller screens */
   header h1 {
     font-size: 24px;
@@ -665,6 +830,7 @@ footer {
 
 /* Add media queries for responsiveness */
 @media screen and (max-width: 768px) {
+
   /* Adjust the header font size for smaller screens */
   header h1 {
     font-size: 24px;
@@ -692,6 +858,7 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
+
   /* Adjust the header font size for smaller smartphones */
   header h1 {
     font-size: 20px;
@@ -722,62 +889,5 @@ footer {
 
   .footer-social {
     align-items: center;
-  }
-}
-@media screen and (max-width: 425px) {
-  header {
-    background-color: #8062d6;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    background-image: url("https://wallpapers.com/images/featured/indian-flag-yqfmermanpgsw0jm.jpg");
-  }
-  .nav1 {
-    flex-direction: column;
-    gap: 20px;
-    align-items: center;
-  }
-  #eventdes {
-    height: 325px;
-  }
-  #eventlist {
-    flex-direction: column;
-    align-items: center;
-  }
-  .notice {
-    width: 76%;
-  }
-  .profiles {
-    flex-direction: column;
-  }
-  .profile {
-    flex-direction: column;
-    gap: 30px;
-    font-size: 11px;
-  }
-
-  .footer-bottom {
-    font-size: 13px;
-  }
-  .testimonial-container {
-    display: flex;
-
-    overflow-x: scroll;
-    padding: 1.5rem 0;
-
-    scroll-behavior: smooth;
-  }
-  .testimonial {
-    grid-template-columns: repeat(4, 70px);
-    grid-template-rows: repeat(4, 70px);
-    min-width: 300px;
-  }
-  .testimonial-photo {
-    grid-row: 1/3;
-    grid-column: 1/3;
-  }
-  .testimonial-text {
-    grid-row: 3/4;
-    grid-column: 1/4;
   }
 }
