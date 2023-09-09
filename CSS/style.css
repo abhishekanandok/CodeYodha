@@ -459,7 +459,7 @@ Slider container .slider {
 }
 
 .profile {
-  display: flex;
+  display: inline-block;
   margin-bottom: 2rem;
   padding: 1.5rem;
   margin: 20px;
@@ -710,14 +710,16 @@ footer {
   .notice {
     width: 76%;
   }
-  .profiles {
+  /* .profiles {
     flex-direction: column;
-  }
-  .profile {
+  } */
+
+  .profile-flex {
+    display: flex;
     flex-direction: column;
-    gap: 30px;
+    /* gap: 30px; */
     font-size: 11px;
-  }
+}
 
   .footer-bottom {
     font-size: 13px;
